@@ -5,7 +5,7 @@ import { GifGrid } from './components/GifGrid'
 
 export const GifExpertApp = () => {
   
-  const [categories, setCategories] = useState(['Goku'])
+  const [categories, setCategories] = useState([''])
   
   const onAddCategory = (newCategory) => {
     // categories.push('cod')//los push no son muy recomendados usar en react
